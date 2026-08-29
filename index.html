@@ -166,34 +166,42 @@ I can offer <strong>talks</strong> and <strong>workshops</strong> for organisati
     </div>
 </section>
 
-<section id="newsletter" class="section newsletter">
-    <p class="eyebrow">STAY UPDATED</p>
-    <h2>Keep in touch</h2>
+<section class="newsletter-section">
 
+    <h2>Stay up to date</h2>
 
+    <p>
+        Join the newsletter for updates on new workshops, talks, research, projects, publications, and more.
+    </p>
 
-<p>Sign up to hear about new research, projects, publications, and other updates.</p>
+    <form
+        class="newsletter-form"
+        action="YOUR_SIGNUP_URL"
+        method="post"
+        target="_blank"
+    >
 
-<form class="newsletter-form" action="YOUR_SIGNUP_URL" method="post" target="_blank">
-    <label for="newsletter-email">Email address</label>
+        <label for="newsletter-email">Email address</label>
 
-    <div class="newsletter-input">
-        <input
-            type="email"
-            id="newsletter-email"
-            name="email"
-            placeholder="you@example.com"
-            required
-            autocomplete="email"
-        >
-        <button type="submit">Sign up</button>
-    </div>
+        <div class="newsletter-row">
+            <input
+                type="email"
+                id="newsletter-email"
+                name="email"
+                placeholder="Enter your email address"
+                required
+                autocomplete="email"
+            >
 
-    <small>
-        I will only use your email to send occasional updates. You can unsubscribe at any time.
-    </small>
-</form>
+            <button type="submit">Sign up</button>
+        </div>
 
+        <p class="newsletter-privacy">
+            We’ll only use your email to send occasional updates.
+            You can unsubscribe at any time.
+        </p>
+
+    </form>
 
 </section>
 
