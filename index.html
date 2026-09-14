@@ -166,36 +166,44 @@ I can offer <strong>talks</strong> and <strong>workshops</strong> for organisati
     </div>
 </section>
 
-
-
 <section class="newsletter-section">
 
     <h2>Stay up to date</h2>
 
     <p>
-        Join the newsletter for updates on new workshops, talks,
-        research, projects, publications, and more.
+        Join the newsletter for updates on new workshops, talks, research, projects, publications, and more.
     </p>
 
-    <div class="newsletter-embed">
-        <iframe
-            src="https://alessiacaccamo.substack.com/embed"
-            width="480"
-            height="320"
-            style="border: 1px solid #EEE; background: white;"
-            frameborder="0"
-            scrolling="no">
-        </iframe>
+    <form
+        class="newsletter-form"
+        action="YOUR_SIGNUP_URL"
+        method="post"
+        target="_blank"
+    >
+
+        <label for="newsletter-email">Email address</label>
+
+        <div class="newsletter-row">
+            <input
+                type="email"
+                id="newsletter-email"
+                name="email"
+                placeholder="Enter your email address"
+                required
+                autocomplete="email"
+            >
+
+            <button type="submit">Sign up</button>
+        </div>
 
         <p class="newsletter-privacy">
             We’ll only use your email to send occasional updates.
             You can unsubscribe at any time.
         </p>
-    </div>
+
+    </form>
 
 </section>
-
-
 
 
 
